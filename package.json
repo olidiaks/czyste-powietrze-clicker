@@ -1,0 +1,19 @@
+{
+  "name": "mapy-powodziwe",
+  "version": "0.0.1",
+  "description": "Projekt na hackaton",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Szedann/mapa-powodziowa.git"
+  },
+  "author": "olidiaks && Szedann",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Szedann/mapa-powodziowa/issues"
+  },
+  "homepage": "https://github.com/Szedann/mapa-powodziowa#readme"
+}
