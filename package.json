@@ -17,9 +17,6 @@
     "url": "https://github.com/Szedann/mapa-powodziowa/issues"
   },
   "homepage": "https://github.com/Szedann/mapa-powodziowa#readme",
-  "dependencies": {
-    "jquery": "^3.6.0"
-  },
   "devDependencies": {
     "http-server": "^13.0.2"
   }
