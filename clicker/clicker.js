@@ -1,5 +1,5 @@
-import { ustawWysokośćElementuTakąJakStrony } from "../funkcje/Wysokosc Strony.js";
+import { zmianaRozmiaruWszystkiegoClicker } from "./zmianaRozmairuWszystkeigoClicker.js";
 
-ustawWysokośćElementuTakąJakStrony('#kontener');
+zmianaRozmiaruWszystkiegoClicker();
 
-window.addEventListener('resize', () => ustawWysokośćElementuTakąJakStrony('#kontener')); 
+window.addEventListener('resize', zmianaRozmiaruWszystkiegoClicker); 
