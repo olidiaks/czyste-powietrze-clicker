@@ -12,6 +12,8 @@ body {
     width: 10%;
     float: left; 
     margin: 0px;
+    padding-left: 5px;
+    padding-right: 5px;
 }
 
 #GórnyPanel{
@@ -27,6 +29,7 @@ body {
     width: 100%;
     margin: 0px;
     background-color: rgb(19, 153, 2);
+    /* padding: 5px; */
 }
 
 #kontener{
@@ -39,4 +42,17 @@ body {
 #CzystszePowietrze{
     margin: auto;
     width: max-content;
+}
+
+.lewyPanelText{
+    margin-top: auto;
+    margin-bottom: auto;
+    color: rgb(0, 37, 250);
+}
+
+#smogCityButton{
+    margin-right: auto;
+    margin-left: auto;
+    padding: 0;
+    background-image: image('img/smog city.jpeg');
 }
