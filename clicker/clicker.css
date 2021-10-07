@@ -51,8 +51,25 @@ body {
 }
 
 #smogCityButton{
-    margin-right: auto;
-    margin-left: auto;
     padding: 0;
-    background-image: image('img/smog city.jpeg');
+}
+
+#smogCityIMG{
+    width: 80%;
+    height: 80%;
+    
+    margin-top: 5%;
+    margin-left: 5%;
+    transition: all 10ms;
+}
+
+#smogCityIMG:active{
+    cursor: pointer;
+
+    width: 75%;
+    height: 75%;
+
+    margin-left: 7.5%;
+    margin-top: 7.5%;
+
 }
