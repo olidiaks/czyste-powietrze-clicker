@@ -1,6 +1,6 @@
 {
   "name": "mapy-powodziwe",
-  "version": "0.0.1",
+  "version": "0.1.1",
   "description": "Projekt na hackaton",
   "main": "index.js",
   "scripts": {
