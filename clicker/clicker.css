@@ -61,6 +61,8 @@ body {
     margin-top: 5%;
     margin-left: 5%;
     transition: all 10ms;
+
+    border-radius: 10px;
 }
 
 #smogCityIMG:active{

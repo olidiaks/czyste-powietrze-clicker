@@ -5,4 +5,4 @@ const smogCityIMG = document.getElementById('smogCityIMG');
 zmianaRozmiaruWszystkiegoClicker();
 
 window.addEventListener('resize', zmianaRozmiaruWszystkiegoClicker); 
-document.addEventListener('click', click);
+smogCityIMG.addEventListener('click', click);
