@@ -1,8 +1,8 @@
-import { click } from "../funkcje/click.js";
+import { obsługaKliknięcia } from "./obsługaKliknięcia.js";
 import { zmianaRozmiaruWszystkiegoClicker } from "./zmianaRozmairuWszystkeigoClicker.js";
-const smogCityIMG = document.getElementById('smogCityIMG');
 
 zmianaRozmiaruWszystkiegoClicker();
 
 window.addEventListener('resize', zmianaRozmiaruWszystkiegoClicker); 
-smogCityIMG.addEventListener('click', click);
+
+document.getElementById('smogCityIMG').addEventListener('click', obsługaKliknięcia)
